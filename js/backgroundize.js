@@ -5,6 +5,10 @@ document
 document
   .querySelector("#banner")
   .setAttribute('style', 'background-image: url(https://0xfff.oss-cn-beijing.aliyuncs.com/uploads%2F1%2Fpicture%2F%E5%A3%81%E7%BA%B8%2F042b60d3-f327-4dee-a49b-3808fcfa1d1d_wallhaven-o53z27.jpg?Expires=1758553355&OSSAccessKeyId=LTAI5tMKKrMMms5C8BtP7sbu&Signature=N0Xvg3sWsv%2F0dyfcewBEMHDrNk4%3D)')
+  .setAttribute('style', 'background-repeat: no-repeat;')
+  .setAttribute('style', 'background-size: cover;')
+  .setAttribute('style', 'background-position: center;')
+  .setAttribute('style', 'background-attachment: fixed;')
 
 document
   .querySelector("#banner .mask")
