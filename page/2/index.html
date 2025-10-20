@@ -20,8 +20,8 @@
   <meta name="keywords" content="">
   
     <meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="https://www.0xff.ink/tags/index.html">
+<meta property="og:title" content="日沉阁">
+<meta property="og:url" content="https://www.0xff.ink/page/2/index.html">
 <meta property="og:site_name" content="日沉阁">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Frank9527">
@@ -29,7 +29,7 @@
   
   
   
-  <title>标签 - 日沉阁</title>
+  <title>日沉阁</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -83,7 +83,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 80vh;">
+<div class="header-inner" style="height: 100vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -195,13 +195,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('https://cdn.luogu.com.cn/upload/image_hosting/w7rbz7bo.png') no-repeat center center; background-size: cover;">
+     style="background: url('https://img.dgtsr.top/pic/background/wallhaven-o53z27.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="标签"></span>
+            <span id="subtitle" data-typed-text="一个平平无奇的人的平平无奇的博客"></span>
           
         </div>
 
@@ -225,16 +225,62 @@
     
       <div class="container nopadding-x-md">
         <div id="board"
-          >
+          style="margin-top: 0">
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="text-center tagcloud">
-  <a href="/tags/Claude-Code/" style="font-size: 15px; color: #bbe">Claude Code</a> <a href="/tags/ai/" style="font-size: 15px; color: #bbe">ai</a> <a href="/tags/cdn/" style="font-size: 15px; color: #bbe">cdn</a> <a href="/tags/claude-code/" style="font-size: 15px; color: #bbe">claude code</a> <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/" style="font-size: 15px; color: #bbe">人工智能</a> <a href="/tags/%E5%90%8E%E7%AB%AF/" style="font-size: 15px; color: #bbe">后端</a> <a href="/tags/%E5%A4%8D%E6%9D%82%E5%BA%A6/" style="font-size: 15px; color: #bbe">复杂度</a> <a href="/tags/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/" style="font-size: 15px; color: #bbe">我的世界</a> <a href="/tags/%E6%96%87%E5%8C%96%E8%AF%BE/" style="font-size: 15px; color: #bbe">文化课</a> <a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 15px; color: #bbe">游戏</a> <a href="/tags/%E7%99%BD%E5%AB%96/" style="font-size: 15px; color: #bbe">白嫖</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 15px; color: #bbe">算法</a> <a href="/tags/%E7%BD%91%E7%BB%9C%E5%B0%8F%E8%AF%B4/" style="font-size: 15px; color: #bbe">网络小说</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/" style="font-size: 15px; color: #bbe">计算机基础</a>
-</div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/posts/1243066710/" target="_self">
+          <img src="https://t.alcy.cc/fj?postId=2" srcset="/img/loading.gif" lazyload alt="Hello World">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/posts/1243066710/" target="_self">
+          Hello World
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt " href="/posts/1243066710/" target="_self">
+        <div>
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2025-09-20 22:37" pubdate>
+              2025-09-20
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </span>
+  </nav>
+
+
 
               </div>
             </div>
@@ -319,7 +365,37 @@
       }
       var text = subtitle.getAttribute('data-typed-text');
       
-        typing(text);
+        jQuery.ajax({
+          type: 'GET',
+          url: 'https://v1.jinrishici.com/all.json',
+          headers: {},
+          dataType: 'json',
+          success: function(result) {
+            var apiText;
+            if (result) {
+              var keys = 'content'.split(',');
+              if (result instanceof Array) {
+                result = result[0];
+              }
+              for (const k of keys) {
+                var value = result[k];
+                if (typeof value === 'string') {
+                  apiText = value;
+                  break;
+                } else if (value instanceof Object) {
+                  result = value;
+                }
+              }
+            }
+            apiText ? typing(apiText) : typing(text);
+          },
+          error: function(xhr, status, error) {
+            if (error) {
+              console.error('Failed to request https://v1.jinrishici.com/all.json:', error);
+            }
+            typing(text);
+          }
+        })
       
     })(window, document);
   </script>
