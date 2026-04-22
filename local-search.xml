@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>HexoSync，优雅的Hexo客户端</title>
-    <link href="/posts/2989892504/"/>
-    <url>/posts/2989892504/</url>
+    <title>HexoSync，简洁实用的Hexo客户端</title>
+    <link href="/posts/3250350674/"/>
+    <url>/posts/3250350674/</url>
     
-    <content type="html"><![CDATA[<p><img src="https://pic1.imgdb.cn/item/69e35908214d2a8a53d77543.png"></p><p>话不多说，直接介绍。</p><p>hexo是个人认为非常好的博客，加个fluid主题看着就舒服。</p><p>但是最大的问题来了，写起来太生草了，开个VSCode写起来十分不便。</p><p>于是我打算自己来搞一个客户端，HexoSync就这么出来了。</p><p>已实现的功能（2026.4.21，第一个版本）</p><ul><li>优雅的前端</li><li>优雅的md预览</li><li>可视化修改文章标签、分类</li><li>一键部署</li></ul><p>使用也很简单：选择博客目录，然后直接开始 blogging ！</p><p>本项目使用 <code>go</code> + <code>wails</code> 写成，我已经把它打包成了客户端，目前是单文件，可以直接 <a href="https://github.com/HereisFrank9527/HexoSync/releases">下载</a> 。</p><p>当然，本项目 <a href="https://github.com/HereisFrank9527/HexoSync">开源</a>。</p><p>还有，因为本项目以自用为主要目的，所以会频繁更新，敬请关注！</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://pic1.imgdb.cn/item/69e35908214d2a8a53d77543.png"></p><p>话不多说，直接介绍。</p><p>hexo是个人认为非常好的博客，加个fluid主题看着就舒服。</p><p>但是最大的问题来了，写起来太生草了，开个VSCode写起来十分不便。</p><p>于是我打算自己来搞一个客户端，HexoSync就这么出来了。</p><p>已实现的功能（2026.4.21，第一个版本）</p><ul><li>干净的前端</li><li>优雅的md预览</li><li>仿github的md预览</li><li>一键部署</li></ul><p>使用也很简单：选择博客目录，然后直接开始 blogging ！</p><p>本项目使用 <code>go</code> + <code>wails</code> 写成，我已经把它打包成了客户端，目前是单文件，可以直接 <a href="https://github.com/HereisFrank9527/HexoSync/releases">下载</a> 。</p><p>当然，本项目 <a href="https://github.com/HereisFrank9527/HexoSync">开源</a>。</p><p>还有，因为本项目以自用为主要目的，所以会频繁更新，敬请关注！</p>]]></content>
     
     
     <categories>
