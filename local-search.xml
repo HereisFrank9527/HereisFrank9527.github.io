@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>从零开始，用AI打造3D游戏</title>
-    <link href="/posts/3486883513/"/>
-    <url>/posts/3486883513/</url>
+    <title>【持续更新，不一定成功】从零开始，用AI打造3D游戏</title>
+    <link href="/posts/3112647051/"/>
+    <url>/posts/3112647051/</url>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>信息课的时候老师居然讲了用网页端ai输出html直接做游。</p><p>刚好最近在研究低多边形风格，课上用deepseek就跑出来个flipping bird，不得不说效果挺好的。</p><p>于是我的做游戏之魂又燃烧起来了，用半天时间研究一下吧。</p><p>当然一个人肯定搞不出来，这波肯定得ai发力，引擎无脑开源之神godot（当然我对godot的了解其实止步于了解，逃），问问deepseek怎么办：</p><p><img src="https://pic1.imgdb.cn/item/69fff11d5a52df004a0813ed.png"></p><p>那就试试吧</p><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>开始，先安装 <code>uv</code>：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">irm https://astral.sh/uv/install.ps1 | iex<br></code></pre></td></tr></table></figure><p>然后是插件：</p><p>在Godot编辑器内打开 AssetLib（资源库），搜索 Godot AI 并下载。</p><p><img src="https://pic1.imgdb.cn/item/69fff2405a52df004a08140f.png"></p><p>接着在项目-&gt;项目设置-&gt;插件处启用 godot ai</p><p>然后连接客户端</p><p><img src="https://pic1.imgdb.cn/item/69fff49f5a52df004a083786.png"></p><p>老实说，这是我第一次正式用mcp。</p><p>可以看到这里已经配置完成了：</p><p><img src="https://pic1.imgdb.cn/item/69fff4fa5a52df004a08379e.png"></p><p><img src="https://pic1.imgdb.cn/item/69fff6235a52df004a0837e7.png"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>信息课的时候老师居然讲了用网页端ai输出html直接做游。</p><p>刚好最近在研究低多边形风格，课上用deepseek就跑出来个flipping bird，不得不说效果挺好的。</p><p>于是我的做游戏之魂又燃烧起来了，用半天时间研究一下吧。</p><p>当然一个人肯定搞不出来，这波肯定得ai发力，引擎无脑开源之神godot（当然我对godot的了解其实止步于了解，逃），问问deepseek怎么办：</p><p><img src="https://pic1.imgdb.cn/item/69fff11d5a52df004a0813ed.png"></p><p>那就试试吧</p><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>开始，先安装 <code>uv</code>：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">irm https://astral.sh/uv/install.ps1 | iex<br></code></pre></td></tr></table></figure><p>然后是插件：</p><p>在Godot编辑器内打开 AssetLib（资源库），搜索 Godot AI 并下载。</p><p><img src="https://pic1.imgdb.cn/item/69fff2405a52df004a08140f.png"></p><p>接着在项目-&gt;项目设置-&gt;插件处启用 godot ai</p><p>然后连接客户端</p><p><img src="https://pic1.imgdb.cn/item/69fff49f5a52df004a083786.png"></p><p>老实说，这是我第一次正式用mcp。</p><p>可以看到这里已经配置完成了：</p><p><img src="https://pic1.imgdb.cn/item/69fff4fa5a52df004a08379e.png"></p><p><img src="https://pic1.imgdb.cn/item/69fff6235a52df004a0837e7.png"></p><p><img src="https://pic1.imgdb.cn/item/69fff7dd5a52df004a0838c2.png"></p><p>诶我草，做出来一坨大便怎么办。</p><p><img src="https://pic1.imgdb.cn/item/69fff8865a52df004a0838d6.png"><br>你说的对（喜</p>]]></content>
     
     
     <categories>
