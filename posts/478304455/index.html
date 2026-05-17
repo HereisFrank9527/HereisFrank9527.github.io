@@ -19,26 +19,25 @@
   <meta name="author" content="Frank9527">
   <meta name="keywords" content="">
   
-    <meta name="description" content="前言信息课的时候老师居然讲了用网页端ai输出html直接做游。 刚好最近在研究低多边形风格，课上用deepseek就跑出来个flipping bird，不得不说效果挺好的。 于是我的做游戏之魂又燃烧起来了，用半天时间研究一下吧。 当然一个人肯定搞不出来，这波肯定得ai发力，引擎无脑开源之神godot（当然我对godot的了解其实止步于了解，逃），问问deepseek怎么办：  那就试试吧 准备开始">
+    <meta name="description" content="自己手里鸡有两三个，但是有两个都是神秘供应商，状态不算稳定，于是搞个komari监控一下。 效果 https:&#x2F;&#x2F;i.0xff.ink 面板使用1panel。 安装应用商店直接搜 komari 然后按到底就行了，啥都不用动。管理员密码记得存一下。 配置访问前端，端口25774或者自己反向代理一下。然后右上角添加节点，添加完后点那个像下载的按钮，就会出现命令，然后扔到别的服务器就行了。 国内服务器下">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【持续更新，不一定成功】从零开始，用AI打造3D游戏">
-<meta property="og:url" content="https://www.0xff.ink/posts/3112647051/index.html">
+<meta property="og:title" content="Komari：轻量自托管服务器方案">
+<meta property="og:url" content="https://www.0xff.ink/posts/478304455/index.html">
 <meta property="og:site_name" content="日沉阁">
-<meta property="og:description" content="前言信息课的时候老师居然讲了用网页端ai输出html直接做游。 刚好最近在研究低多边形风格，课上用deepseek就跑出来个flipping bird，不得不说效果挺好的。 于是我的做游戏之魂又燃烧起来了，用半天时间研究一下吧。 当然一个人肯定搞不出来，这波肯定得ai发力，引擎无脑开源之神godot（当然我对godot的了解其实止步于了解，逃），问问deepseek怎么办：  那就试试吧 准备开始">
+<meta property="og:description" content="自己手里鸡有两三个，但是有两个都是神秘供应商，状态不算稳定，于是搞个komari监控一下。 效果 https:&#x2F;&#x2F;i.0xff.ink 面板使用1panel。 安装应用商店直接搜 komari 然后按到底就行了，啥都不用动。管理员密码记得存一下。 配置访问前端，端口25774或者自己反向代理一下。然后右上角添加节点，添加完后点那个像下载的按钮，就会出现命令，然后扔到别的服务器就行了。 国内服务器下">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://t.alcy.cc/fj?postId=4">
-<meta property="article:published_time" content="2026-05-10T02:40:10.000Z">
-<meta property="article:modified_time" content="2026-05-10T04:09:43.701Z">
+<meta property="og:image" content="https://t.alcy.cc/fj?postId=5">
+<meta property="article:published_time" content="2026-05-17T08:16:24.000Z">
+<meta property="article:modified_time" content="2026-05-17T09:31:01.964Z">
 <meta property="article:author" content="Frank9527">
-<meta property="article:tag" content="ai">
-<meta property="article:tag" content="godot">
-<meta property="article:tag" content="3d">
+<meta property="article:tag" content="1panel">
+<meta property="article:tag" content="服务器">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://t.alcy.cc/fj?postId=4">
+<meta name="twitter:image" content="https://t.alcy.cc/fj?postId=5">
   
   
   
-  <title>【持续更新，不一定成功】从零开始，用AI打造3D游戏 - 日沉阁</title>
+  <title>Komari：轻量自托管服务器方案 - 日沉阁</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -238,7 +237,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="【持续更新，不一定成功】从零开始，用AI打造3D游戏"></span>
+            <span id="subtitle" data-typed-text="Komari：轻量自托管服务器方案"></span>
           
         </div>
 
@@ -249,8 +248,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2026-05-10 10:40" pubdate>
-          2026年5月10日 上午
+        <time datetime="2026-05-17 16:16" pubdate>
+          2026年5月17日 下午
         </time>
       </span>
     
@@ -261,7 +260,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          241 字
+          191 字
         
       </span>
     
@@ -272,7 +271,7 @@
         
         
         
-          3 分钟
+          2 分钟
         
       </span>
     
@@ -309,32 +308,19 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">【持续更新，不一定成功】从零开始，用AI打造3D游戏</h1>
+            <h1 id="seo-header">Komari：轻量自托管服务器方案</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>信息课的时候老师居然讲了用网页端ai输出html直接做游。</p>
-<p>刚好最近在研究低多边形风格，课上用deepseek就跑出来个flipping bird，不得不说效果挺好的。</p>
-<p>于是我的做游戏之魂又燃烧起来了，用半天时间研究一下吧。</p>
-<p>当然一个人肯定搞不出来，这波肯定得ai发力，引擎无脑开源之神godot（当然我对godot的了解其实止步于了解，逃），问问deepseek怎么办：</p>
-<p><img src="https://pic1.imgdb.cn/item/69fff11d5a52df004a0813ed.png" srcset="/img/loading.gif" lazyload></p>
-<p>那就试试吧</p>
-<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>开始，先安装 <code>uv</code>：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">irm https://astral.sh/uv/install.ps1 | iex<br></code></pre></td></tr></table></figure>
-<p>然后是插件：</p>
-<p>在Godot编辑器内打开 AssetLib（资源库），搜索 Godot AI 并下载。</p>
-<p><img src="https://pic1.imgdb.cn/item/69fff2405a52df004a08140f.png" srcset="/img/loading.gif" lazyload></p>
-<p>接着在项目-&gt;项目设置-&gt;插件处启用 godot ai</p>
-<p>然后连接客户端</p>
-<p><img src="https://pic1.imgdb.cn/item/69fff49f5a52df004a083786.png" srcset="/img/loading.gif" lazyload></p>
-<p>老实说，这是我第一次正式用mcp。</p>
-<p>可以看到这里已经配置完成了：</p>
-<p><img src="https://pic1.imgdb.cn/item/69fff4fa5a52df004a08379e.png" srcset="/img/loading.gif" lazyload></p>
-<p><img src="https://pic1.imgdb.cn/item/69fff6235a52df004a0837e7.png" srcset="/img/loading.gif" lazyload></p>
-<p><img src="https://pic1.imgdb.cn/item/69fff7dd5a52df004a0838c2.png" srcset="/img/loading.gif" lazyload></p>
-<p>诶我草，做出来一坨大便怎么办。</p>
-<p><img src="https://pic1.imgdb.cn/item/69fff8865a52df004a0838d6.png" srcset="/img/loading.gif" lazyload><br>你说的对（喜</p>
+                <p>自己手里鸡有两三个，但是有两个都是神秘供应商，状态不算稳定，于是搞个komari监控一下。</p>
+<p>效果 <a target="_blank" rel="noopener" href="https://i.0xff.ink/">https://i.0xff.ink</a></p>
+<p>面板使用1panel。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>应用商店直接搜 <code>komari</code> 然后按到底就行了，啥都不用动。<br>管理员密码记得存一下。<br><img src="https://pic1.imgdb.cn/item/6a0987924a1fb4fac45d3a3c.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>访问前端，端口<code>25774</code>或者自己反向代理一下。<br>然后右上角添加节点，添加完后点那个像下载的按钮，就会出现命令，然后扔到别的服务器就行了。<br><img src="https://pic1.imgdb.cn/item/6a09894a4a1fb4fac45d3b1c.png" srcset="/img/loading.gif" lazyload></p>
+<p>国内服务器下的慢可以在githu代理填 <code>https://ghfast.top/</code>。</p>
+<h3 id="延迟测试"><a href="#延迟测试" class="headerlink" title="延迟测试"></a>延迟测试</h3><p>目标那可以填自己所在服务商的dns服务器，懒得话直接抄我这个吧<code>111.45.76.166</code>。</p>
+<p><img src="https://pic1.imgdb.cn/item/6a098a734a1fb4fac45d3b90.png" srcset="/img/loading.gif" lazyload></p>
 
                 
               </div>
@@ -353,7 +339,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84/" class="category-chain-item">有意思的</a>
+  <a href="/categories/%E6%9C%89%E7%82%B9%E7%94%A8%E7%9A%84/" class="category-chain-item">有点用的</a>
   
   
 
@@ -368,11 +354,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/ai/" class="print-no-link">#ai</a>
+        <a href="/tags/1panel/" class="print-no-link">#1panel</a>
       
-        <a href="/tags/godot/" class="print-no-link">#godot</a>
-      
-        <a href="/tags/3d/" class="print-no-link">#3d</a>
+        <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="print-no-link">#服务器</a>
       
     </div>
   
@@ -384,8 +368,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>【持续更新，不一定成功】从零开始，用AI打造3D游戏</div>
-      <div>https://www.0xff.ink/posts/3112647051/</div>
+      <div>Komari：轻量自托管服务器方案</div>
+      <div>https://www.0xff.ink/posts/478304455/</div>
     </div>
     <div class="license-meta">
       
@@ -397,7 +381,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2026年5月10日</div>
+          <div>2026年5月17日</div>
         </div>
       
       
@@ -429,18 +413,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/posts/478304455/" title="Komari：轻量自托管服务器方案">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Komari：轻量自托管服务器方案</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/posts/3250350674/" title="HexoSync，简洁实用的Hexo客户端">
-                        <span class="hidden-mobile">HexoSync，简洁实用的Hexo客户端</span>
+                      <a href="/posts/3112647051/" title="【持续更新，不一定成功】从零开始，用AI打造3D游戏">
+                        <span class="hidden-mobile">【持续更新，不一定成功】从零开始，用AI打造3D游戏</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
