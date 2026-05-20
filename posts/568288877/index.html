@@ -19,24 +19,25 @@
   <meta name="author" content="Frank9527">
   <meta name="keywords" content="">
   
-    <meta name="description" content="一直喜欢用1panel，想发挥香港服务器的低延迟优势，同时又喜欢hexo，于是自己写个脚本实现自动更新。 先安装git： 1sudo apt install git-all  然后在网站那里建立一个静态网站  现在目录中 git clone 一下你的hexo仓库 记得把 index.html 所在的根目录文件挪到index文件夹里，可以先访问一下试试 然后就在定时任务里加入以下内容： 123456">
+    <meta name="description" content="前言本博客仅为了快速入门，所以很多专业知识一笔带过甚至有失偏颇，还望读者自行查证所以前面标有 * 号的内容为可以在初次了解，准备快速应用时可以直接跳过 0x00 技术准备node.jsai领域作为包管理器，使用ai则必装安装：在这里下载msi安装包并安装，然后设置镜像： 12npm config set registry https:&#x2F;&#x2F;registry.npmmirror.comnpm conf">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【hexo配置】1panel部署、定时更新hexo博客">
-<meta property="og:url" content="https://www.0xff.ink/posts/2691857721/index.html">
+<meta property="og:title" content="一日建成罗马城：从0到1的LLM快速应用">
+<meta property="og:url" content="https://www.0xff.ink/posts/568288877/index.html">
 <meta property="og:site_name" content="日沉阁">
-<meta property="og:description" content="一直喜欢用1panel，想发挥香港服务器的低延迟优势，同时又喜欢hexo，于是自己写个脚本实现自动更新。 先安装git： 1sudo apt install git-all  然后在网站那里建立一个静态网站  现在目录中 git clone 一下你的hexo仓库 记得把 index.html 所在的根目录文件挪到index文件夹里，可以先访问一下试试 然后就在定时任务里加入以下内容： 123456">
+<meta property="og:description" content="前言本博客仅为了快速入门，所以很多专业知识一笔带过甚至有失偏颇，还望读者自行查证所以前面标有 * 号的内容为可以在初次了解，准备快速应用时可以直接跳过 0x00 技术准备node.jsai领域作为包管理器，使用ai则必装安装：在这里下载msi安装包并安装，然后设置镜像： 12npm config set registry https:&#x2F;&#x2F;registry.npmmirror.comnpm conf">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://t.alcy.cc/fj?postId=2">
-<meta property="article:published_time" content="2026-04-18T04:23:52.000Z">
-<meta property="article:modified_time" content="2026-04-18T06:15:35.963Z">
+<meta property="og:image" content="https://t.alcy.cc/fj?postId=6">
+<meta property="article:published_time" content="2026-05-17T14:05:38.000Z">
+<meta property="article:modified_time" content="2026-05-18T05:02:49.105Z">
 <meta property="article:author" content="Frank9527">
-<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="ai">
+<meta property="article:tag" content="llm">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://t.alcy.cc/fj?postId=2">
+<meta name="twitter:image" content="https://t.alcy.cc/fj?postId=6">
   
   
   
-  <title>【hexo配置】1panel部署、定时更新hexo博客 - 日沉阁</title>
+  <title>一日建成罗马城：从0到1的LLM快速应用 - 日沉阁</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -236,7 +237,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="【hexo配置】1panel部署、定时更新hexo博客"></span>
+            <span id="subtitle" data-typed-text="一日建成罗马城：从0到1的LLM快速应用"></span>
           
         </div>
 
@@ -247,8 +248,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2026-04-18 12:23" pubdate>
-          2026年4月18日 中午
+        <time datetime="2026-05-17 22:05" pubdate>
+          2026年5月17日 晚上
         </time>
       </span>
     
@@ -259,7 +260,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          520 字
+          973 字
         
       </span>
     
@@ -270,7 +271,7 @@
         
         
         
-          5 分钟
+          9 分钟
         
       </span>
     
@@ -307,23 +308,32 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">【hexo配置】1panel部署、定时更新hexo博客</h1>
+            <h1 id="seo-header">一日建成罗马城：从0到1的LLM快速应用</h1>
             
             
               <div class="markdown-body">
                 
-                <p>一直喜欢用1panel，想发挥香港服务器的低延迟优势，同时又喜欢hexo，于是自己写个脚本实现自动更新。</p>
-<p>先安装git：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">sudo</span> apt install git-all<br></code></pre></td></tr></table></figure>
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本博客仅为了快速入门，所以很多专业知识一笔带过甚至有失偏颇，还望读者自行查证<br>所以前面标有 * 号的内容为可以在初次了解，准备快速应用时可以直接跳过</p>
+<h2 id="0x00-技术准备"><a href="#0x00-技术准备" class="headerlink" title="0x00 技术准备"></a>0x00 技术准备</h2><h3 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a>node.js</h3><p>ai领域作为包管理器，使用ai则必装<br>安装：在<a target="_blank" rel="noopener" href="https://nodejs.org/en/download">这里</a>下载msi安装包并安装，然后设置镜像：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm config <span class="hljs-built_in">set</span> registry https://registry.npmmirror.com<br>npm config get registry <span class="hljs-comment"># 验证镜像是否设置成功</span><br></code></pre></td></tr></table></figure>
 
-<p>然后在网站那里建立一个静态网站</p>
-<p><img src="https://pic1.imgdb.cn/item/69e32087c450c427a6095249.png" srcset="/img/loading.gif" lazyload></p>
-<p>现在目录中 <code>git clone</code> 一下你的hexo仓库</p>
-<p>记得把 <code>index.html</code> 所在的根目录文件挪到index文件夹里，可以先访问一下试试</p>
-<p>然后就在定时任务里加入以下内容：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-meta">#!/bin/bash</span><br><br><span class="hljs-comment"># ================= 配置区域 =================</span><br>BLOG_DIR=<span class="hljs-string">&quot;/opt/1panel/www/sites/blog/index&quot;</span>   <span class="hljs-comment"># 博客根目录（包含 .git 文件夹）</span><br>GIT_REMOTE=<span class="hljs-string">&quot;origin&quot;</span>                           <span class="hljs-comment"># 远程仓库名称</span><br>GIT_BRANCH=<span class="hljs-string">&quot;main&quot;</span>                             <span class="hljs-comment"># 分支名（也可能是 master）</span><br><span class="hljs-comment"># 可选：构建命令（如 Hugo / Hexo）</span><br><span class="hljs-comment"># BUILD_CMD=&quot;hugo&quot;</span><br><span class="hljs-comment"># BUILD_CMD=&quot;hexo generate&quot;</span><br><span class="hljs-comment"># ===========================================</span><br><br><span class="hljs-comment"># 输出带时间戳的信息</span><br><span class="hljs-function"><span class="hljs-title">log</span></span>() &#123;<br>    <span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;[<span class="hljs-subst">$(date &#x27;+%Y-%m-%d %H:%M:%S&#x27;)</span>] <span class="hljs-variable">$1</span>&quot;</span><br>&#125;<br><br><span class="hljs-built_in">log</span> <span class="hljs-string">&quot;========== 开始更新博客 ==========&quot;</span><br><br><span class="hljs-comment"># 检查目录是否存在</span><br><span class="hljs-keyword">if</span> [ ! -d <span class="hljs-string">&quot;<span class="hljs-variable">$BLOG_DIR</span>&quot;</span> ]; <span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;错误：博客目录 <span class="hljs-variable">$BLOG_DIR</span> 不存在，脚本退出。&quot;</span><br>    <span class="hljs-built_in">exit</span> 1<br><span class="hljs-keyword">fi</span><br><br><span class="hljs-comment"># 进入博客目录</span><br><span class="hljs-built_in">cd</span> <span class="hljs-string">&quot;<span class="hljs-variable">$BLOG_DIR</span>&quot;</span> || &#123; <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;错误：无法进入目录 <span class="hljs-variable">$BLOG_DIR</span>&quot;</span>; <span class="hljs-built_in">exit</span> 1; &#125;<br><br><span class="hljs-comment"># 确认是 Git 仓库</span><br><span class="hljs-keyword">if</span> [ ! -d <span class="hljs-string">&quot;.git&quot;</span> ]; <span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;错误：当前目录不是 Git 仓库，请先执行 git clone。&quot;</span><br>    <span class="hljs-built_in">exit</span> 1<br><span class="hljs-keyword">fi</span><br><br><span class="hljs-comment"># 解决 Git 的 dubious ownership 问题（信任该目录）</span><br>git config --global --add safe.directory <span class="hljs-string">&quot;<span class="hljs-variable">$BLOG_DIR</span>&quot;</span><br><br><span class="hljs-comment"># ---------- 关键修改：强制同步远程仓库 ----------</span><br><span class="hljs-built_in">log</span> <span class="hljs-string">&quot;拉取远程最新代码（fetch）...&quot;</span><br>git fetch <span class="hljs-string">&quot;<span class="hljs-variable">$GIT_REMOTE</span>&quot;</span> <span class="hljs-string">&quot;<span class="hljs-variable">$GIT_BRANCH</span>&quot;</span><br><span class="hljs-keyword">if</span> [ $? -ne 0 ]; <span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;错误：git fetch 失败，请检查网络或仓库权限。&quot;</span><br>    <span class="hljs-built_in">exit</span> 1<br><span class="hljs-keyword">fi</span><br><br><span class="hljs-built_in">log</span> <span class="hljs-string">&quot;强制重置本地分支到远程最新提交（reset --hard）...&quot;</span><br>git reset --hard <span class="hljs-string">&quot;<span class="hljs-variable">$GIT_REMOTE</span>/<span class="hljs-variable">$GIT_BRANCH</span>&quot;</span><br><span class="hljs-keyword">if</span> [ $? -eq 0 ]; <span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;本地仓库已强制同步到远程 <span class="hljs-variable">$GIT_BRANCH</span> 分支的最新状态。&quot;</span><br><span class="hljs-keyword">else</span><br>    <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;错误：git reset 失败。&quot;</span><br>    <span class="hljs-built_in">exit</span> 1<br><span class="hljs-keyword">fi</span><br><span class="hljs-comment"># ---------------------------------------------</span><br><br><span class="hljs-comment"># 如果有构建命令，则执行</span><br><span class="hljs-keyword">if</span> [ -n <span class="hljs-string">&quot;<span class="hljs-variable">$BUILD_CMD</span>&quot;</span> ]; <span class="hljs-keyword">then</span><br>    <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;执行构建命令：<span class="hljs-variable">$BUILD_CMD</span>&quot;</span><br>    <span class="hljs-built_in">eval</span> <span class="hljs-string">&quot;<span class="hljs-variable">$BUILD_CMD</span>&quot;</span><br>    <span class="hljs-keyword">if</span> [ $? -eq 0 ]; <span class="hljs-keyword">then</span><br>        <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;构建成功。&quot;</span><br>    <span class="hljs-keyword">else</span><br>        <span class="hljs-built_in">log</span> <span class="hljs-string">&quot;错误：构建失败。&quot;</span><br>        <span class="hljs-built_in">exit</span> 1<br>    <span class="hljs-keyword">fi</span><br><span class="hljs-keyword">fi</span><br><br><span class="hljs-built_in">log</span> <span class="hljs-string">&quot;========== 更新完成 ==========&quot;</span><br></code></pre></td></tr></table></figure>
-<p>记得把博客根目录改成自己的</p>
-<p>然后就行啦，更新时间我自己设得是 30min，短一点也没啥问题</p>
+<h3 id="cmd"><a href="#cmd" class="headerlink" title="cmd"></a>cmd</h3><p>很基础，但我感觉有人不会。<br>按一下win键直接搜cmd就能打开了<br>以下所有命令都在cmd&#x2F;powershell 或它的子窗口运行<br>技巧：在项目文件下，在文件路径的框里面输入cmd会自动打开本目录的cmd</p>
+<h3 id="加速器"><a href="#加速器" class="headerlink" title="加速器"></a>加速器</h3><p>额，你至少需要一个可以加速github的加速器，或者配一下host。</p>
+<h2 id="0x01-一些概念"><a href="#0x01-一些概念" class="headerlink" title="0x01 一些概念"></a>0x01 一些概念</h2><h3 id="LLM"><a href="#LLM" class="headerlink" title="LLM"></a>LLM</h3><p>LLM是什么？<br>简单理解就是，它是一个神秘的盒子，你塞个纸条给它，它就给你回一个。<br>注意，我说的是<strong>一个</strong>。</p>
+<p>LLM实质上是只支持单次问答的，它本身不带记忆。而诸如对话历史、工具调用等等功能，都是在给它的纸条里塞了规则。<br>比如“我们上次聊到XXX了”，“以下是你可以调用的工具列表”等等。</p>
+<p>理解这些并不难，但是理解后可能会对你要做的项目有所帮助。</p>
+<h3 id="中转站"><a href="#中转站" class="headerlink" title="中转站"></a>中转站</h3><p>世界上的模型供应商其实就那么几家（更别说尖端模型了），比如deepseek、claude、gemini、gpt。</p>
+<p>实质上，供应商就是给你提供了一个窗口，也就是<code>api</code>，让你可以和llm愉快的传纸条。</p>
+<p>但是以上提到的供应商除了deepseek按量买都非常昂贵且对国内用户非常不友好，于是中转站诞生了。</p>
+<p>中转站是中间商，朝个人开发者收取费用提供 <code>api</code> 调用，而费用通常是廉价的，并且不需要魔法。</p>
+<p>选择一个好的中间商（除非你量大直接接官方）是很重要的，因为一些奸商会把你的信息拿出去卖、给模型掺水把你的尖端模型请求路由到垃圾模型、或者定一个奇高无比的价格。</p>
+<p>我会讲一下怎么选一个中转站，并且在评论区给点推荐，但那是以后，我将先完成这篇博客。</p>
+<p>当然直接用deepseek也不失为一个好的选择，毕竟它已经以极低的价格跑出了第一梯队的实力了。</p>
+<h3 id="mcp与tool"><a href="#mcp与tool" class="headerlink" title="*mcp与tool"></a>*mcp与tool</h3><p>这两个概念属于进阶玩法，初次接触LLM应用时可以暂时跳过，但理解它们能让你未来的项目更有想象力。</p>
+<h4 id="MCP"><a href="#MCP" class="headerlink" title="MCP"></a>MCP</h4><p>可以理解为LLM的“外设接口标准”。就像USB让不同设备都能插进电脑一样，MCP让LLM可以标准化地接入文件系统、数据库、浏览器、代码解释器等外部工具。<br>举个例子：通过MCP，你可以让LLM直接读取你电脑上的Excel文件并分析数据，而不需要手动复制粘贴内容给它。</p>
+<h4 id="Skill"><a href="#Skill" class="headerlink" title="Skill"></a>Skill</h4><p>这是将一组提示词、工具调用逻辑、输出格式打包成一个“可复用的能力模块”。比如你可以做一个“论文润色Skill”，输入草稿，LLM会自动按学术规范调整格式、优化措辞、生成参考文献。<br>Skill本质上是把复杂的多步骤任务封装成一个简单的指令，让LLM像调用函数一样完成特定工作。<br>它比mcp更加灵活，但是耗费也会更高。</p>
+<h2 id="0x02-前置应用"><a href="#0x02-前置应用" class="headerlink" title="0x02 前置应用"></a>0x02 前置应用</h2><h3 id="CC-switch"><a href="#CC-switch" class="headerlink" title="CC-switch"></a>CC-switch</h3><p><a target="_blank" rel="noopener" href="https://github.com/farion1231/cc-switch">CC-switch</a>可以很快速度的配置模型供应商，强烈建议装上。</p>
+<p>去<a target="_blank" rel="noopener" href="https://github.com/farion1231/cc-switch/releases/latest">这里</a>翻到最下面下载 <code>.msi</code> 文件直接安装。</p>
 
                 
               </div>
@@ -357,7 +367,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/hexo/" class="print-no-link">#hexo</a>
+        <a href="/tags/ai/" class="print-no-link">#ai</a>
+      
+        <a href="/tags/llm/" class="print-no-link">#llm</a>
       
     </div>
   
@@ -369,8 +381,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>【hexo配置】1panel部署、定时更新hexo博客</div>
-      <div>https://www.0xff.ink/posts/2691857721/</div>
+      <div>一日建成罗马城：从0到1的LLM快速应用</div>
+      <div>https://www.0xff.ink/posts/568288877/</div>
     </div>
     <div class="license-meta">
       
@@ -382,7 +394,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2026年4月18日</div>
+          <div>2026年5月17日</div>
         </div>
       
       
@@ -414,18 +426,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/posts/3250350674/" title="HexoSync，简洁实用的Hexo客户端">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">HexoSync，简洁实用的Hexo客户端</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/posts/1982850144/" title="新文章，新开始">
-                        <span class="hidden-mobile">新文章，新开始</span>
+                      <a href="/posts/478304455/" title="Komari：轻量自托管服务器方案">
+                        <span class="hidden-mobile">Komari：轻量自托管服务器方案</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

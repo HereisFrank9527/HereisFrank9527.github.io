@@ -28,7 +28,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://t.alcy.cc/fj?postId=5">
 <meta property="article:published_time" content="2026-05-17T08:16:24.000Z">
-<meta property="article:modified_time" content="2026-05-17T09:31:09.235Z">
+<meta property="article:modified_time" content="2026-05-17T14:11:27.151Z">
 <meta property="article:author" content="Frank9527">
 <meta property="article:tag" content="1panel">
 <meta property="article:tag" content="服务器">
@@ -413,6 +413,12 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/posts/568288877/" title="一日建成罗马城：从0到1的LLM快速应用">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">一日建成罗马城：从0到1的LLM快速应用</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
@@ -433,25 +439,24 @@
   
     <article id="comments" lazyload>
       
-  <div id="twikoo"></div>
+  <div id="waline"></div>
   <script type="text/javascript">
-    Fluid.utils.loadComments('#comments', function() {
-      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.6.8/twikoo.all.min.js', function() {
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createCssLink('https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.css')
+      Fluid.utils.createScript('https://registry.npmmirror.com/@waline/client/2.15.8/files/dist/waline.js', function() {
         var options = Object.assign(
-          {"envId":"https://twi.0xff.ink/","region":"ap-shanghai","path":"window.location.pathname"},
+          {"serverURL":"https://wal.0xff.ink/","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
           {
-            el: '#twikoo',
-            path: 'window.location.pathname',
-            onCommentLoaded: function() {
-              Fluid.utils.listenDOMLoaded(function() {
-                var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
-                Fluid.plugins.imageCaption(imgSelector);
-                Fluid.plugins.fancyBox(imgSelector);
-              });
-            }
+            el: '#waline',
+            path: window.location.pathname
           }
         )
-        twikoo.init(options)
+        Waline.init(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
       });
     });
   </script>
