@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>【重发】白嫖token——公益站最速指北</title>
+    <link href="/posts/673508985/"/>
+    <url>/posts/673508985/</url>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>公益站其实一搜一大把，大家可以随便尝试，但有两个点，需要着重注意。</p><ol><li>安全性。已经爆出有公益站通过篡改返回增加自启动程序，如果你对这方面比较感兴趣可以翻翻我的文章，做了个很简陋的检测功能。</li><li>掺水。很多公益站为了节省成本，会将高端模型路由到低端模型。</li></ol><h3 id="两个老牌公益站推荐"><a href="#两个老牌公益站推荐" class="headerlink" title="两个老牌公益站推荐"></a>两个老牌公益站推荐</h3><ol><li>anyrouyer</li></ol><p>网址：<a href="http://anyrouter.top/">http://anyrouter.top</a> </p><p>要求使用linuxdo账号登录，目前最牛逼的公益站，当然有时候也会趋势，背后疑似质谱。<br>有claude和gpt，好像fable刚出他就上了。</p><ol start="2"><li>agentrouter</li></ol><p>网址：<a href="http://agentrouter.org/">http://agentrouter.org</a></p><p>要求使用github账号登录，有kiro的claude模型，时好时坏的。</p><h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p>自行搜索cc switch<br>安装后对照着填写即可，实在不会的可以找个预设对着改改填个网址，apikey，模型就行。</p><h3 id="公益站同时用不了咋办"><a href="#公益站同时用不了咋办" class="headerlink" title="公益站同时用不了咋办"></a>公益站同时用不了咋办</h3><p>推荐几个付费站。</p><ol><li><a href="https://www.packyapi.com/register?aff=L0T0">packycode</a></li></ol><p>老牌大站，价格属于正常价格不掺水，开vpn才会在网站显示国外模型。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>有点用的</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>ai</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>首发！检测你是否被中转站注入提示词攻击！</title>
     <link href="/posts/1819632666/"/>
     <url>/posts/1819632666/</url>
